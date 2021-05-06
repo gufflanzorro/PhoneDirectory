@@ -1,0 +1,133 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        background-size: cover;
+        background-position-x: center;
+    }
+
+    /* Full-width input fields */
+    input[type=text],
+    input[type=password] {
+        width: 99%;
+        padding: 8px;
+        margin: 2px 0 15px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    /* Set a style for all buttons */
+    button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    button:hover {
+        opacity: 1;
+    }
+
+    /* Extra styles for the cancel button */
+    .cancelbtn {
+        padding: 14px 20px;
+        background-color: #f44336;
+    }
+
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn,
+    .signupbtn {
+        float: left;
+        width: 50%;
+    }
+
+    /* Add padding to container elements */
+    .container {
+        display: flexbox;
+        height: 600px;
+        width: 550px;
+        margin: 8% auto;
+        padding: 8px;
+        text-align: left;
+        position: relative;
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        background-color: #f2f2f2;
+    }
+
+    /* Clear floats */
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    /* Change styles for cancel button and signup button on extra small screens */
+    @media screen and (max-width: 300px) {
+
+        .cancelbtn,
+        .signupbtn {
+            width: 100%;
+        }
+    }
+
+    .fa {
+        padding: 17px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+        background: #3B5998;
+        height: 4px;
+        width: 3px;
+        color: white;
+    }
+
+
+    .fa-google {
+        background: #dd4b39;
+        height: 10px;
+        color: white;
+    }
+
+    .buttons {
+        width: 200px;
+        margin: 0 auto;
+        display: inline;
+    }
+
+    .action_btn {
+        width: 200px;
+        margin: 0 auto;
+        display: inline;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 2fr 13fr;
+        grid-gap: 2px;
+    }
+
