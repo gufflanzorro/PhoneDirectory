@@ -1,13 +1,10 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        background-color: #eccc68;
         background-size: cover;
         background-position-x: center;
     }
-
-
-    /* Add padding to container elements */
     .container {
         display: flexbox;
         height: 300px;
@@ -22,43 +19,42 @@
     }
 
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-li {
-  float: left;
-}
+    li {
+      float: left;
+    }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
-li a:hover:not(.active) {
-  background-color: #111;
-}
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
 
-.active {
-  background-color: #4CAF50;
-}
+    .active {
+      background-color: #4CAF50;
+    }
 
     div {
-    width: 700px;
-    height: 30px;
-    background: ;
-    transition: width 2s;
+        width: 700px;
+        height: 30px;
+        background: ;
+        transition: width 2s;
     }
 
     div:hover {
-    width: 350px;
-
-    border-color: red yellow green hsla(60, 90%, 50%, .8);
+        width: 350px;
+        border-color: red yellow green hsla(60, 90%, 50%, .8);
     }

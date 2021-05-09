@@ -1,11 +1,11 @@
     body {
         margin: 0;
         padding: 0;
-        background-image: linear-gradient(to right, #f1b1b1, #82e6e8);
+        background-color: #eccc68;
         background-size: cover;
         background-position-x: center;
     }
-        .container {
+    .container {
         display: flexbox;
         height: 600px;
         width: 550px;
